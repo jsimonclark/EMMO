@@ -9,7 +9,7 @@
 @base <http://emmo.info/emmo/dt-nmbp-09> .
 
 <http://emmo.info/emmo/dt-nmbp-09> rdf:type owl:Ontology ;
-                                         owl:versionIRI <http://emmo.info/emmo/1.0.0-beta/middle/dt-nmbp-09> ;
+                                         owl:versionIRI <http://emmo.info/emmo/1.0.0-beta/dt-nmbp-09> ;
                                                     owl:imports <http://emmo.info/emmo/1.0.0-beta> ;
                                                     :EMMO_5525a055_dda5_4556_8b91_f0d22fa676cc """EMMO is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0)
 
