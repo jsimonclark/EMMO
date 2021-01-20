@@ -26,8 +26,9 @@
         <uri name="http://emmo.info/emmo/1.0.0-beta/middle/chemistry"         uri="../middle/chemistry.ttl"/>
         <uri name="http://emmo.info/emmo/1.0.0-beta/middle/ordinal"         uri="../middle/ordinal.ttl"/>
 
-        <uri name="http://emmo.info/emmo/1.0.0-beta/domain/commonmaterials"    uri="commonmaterials.ttl"/>
-        <uri name="http://emmo.info/emmo/1.0.0-beta/domain/commonperceptual"   uri="commonperceptual.ttl"/>
-        <uri name="http://emmo.info/emmo/1.0.0-beta/domain/dt-nmbp-09" uri="../domain/dt-nmbp-09.ttl"/>
+        <uri name="http://emmo.info/emmo/1.0.0-beta/domain"    uri="../domain/domain.ttl"/>
+        <uri name="http://emmo.info/emmo/1.0.0-beta/domain/commonmaterials"    uri="../domain/commonmaterials.ttl"/>
+        <uri name="http://emmo.info/emmo/1.0.0-beta/domain/commonperceptual"   uri="../domain/commonperceptual.ttl"/>
+        <uri name="http://emmo.info/emmo/1.0.0-beta/domain/chemicalkinetics" uri="../domain/chemicalkinetics.ttl"/>
     </group>
 </catalog>
