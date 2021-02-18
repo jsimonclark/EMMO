@@ -14,16 +14,11 @@
                                                dcterms:abstract """Defines the reductionistic perspective, which uses the fundamental non-transitive parthood relation, called direct parthood, to provide a powerful granularity description of multiscale real world objects.  EMMO can in principle represents the Universe with direct parthood relations as a direct rooted tree up to its elementary constituents.
 
 In addition to direct parthood, the reductionistic module defines 'State' as a tesselation of spatial direct parts with no change of granularity or cardinality and 'Existent' as a tesselation of temporal direct parts."""@en ;
-                                               dcterms:contributor "Access, DE" ,
-                                                                   "Fraunhofer IWM, DE" ,
-                                                                   "Goldbeck Consulting Ltd (UK)" ,
-                                                                   "SINTEF, NO" ,
-                                                                   "University of Bologna, IT" ;
-                                               dcterms:creator "Adham Hashibon" ,
-                                                               "Emanuele Ghedini" ,
-                                                               "Georg Schmitz" ,
-                                                               "Gerhard Goldbeck" ,
-                                                               "Jesper Friis" ;
+                                               dcterms:contributor "Adham Hashibon, Fraunhofer IWM, DE" ,
+                                                                   "Georg Schmitz, Access, DE" ,
+                                                                   "Gerhard Goldbeck, Goldbeck Consulting Ltd (UK)" ,
+                                                                   "Jesper Friis, SINTEF, NO" ;
+                                               dcterms:creator "Emanuele Ghedini, University of Bologna, IT" ;
                                                dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
                                                dcterms:publisher "EMMC ASBL" ;
                                                dcterms:title "Reductionistic"@en ;
@@ -50,6 +45,7 @@ email: emanuele.ghedini@unibo.it"""@en ,
                                                     owl:IrreflexiveProperty ;
                                            rdfs:domain :EMMO_52211e5e_d767_4812_845e_eb6b402c476a ;
                                            rdfs:range :EMMO_36c79456_e29c_400d_8bd3_0eedddb82652 ;
+                                           :EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A relation that establishes for the whole a univocal tessellation in temporal parts." ;
                                            skos:prefLabel "hasTemporalDirectPart"@en .
 
 
@@ -59,6 +55,7 @@ email: emanuele.ghedini@unibo.it"""@en ,
                                            rdf:type owl:InverseFunctionalProperty ,
                                                     owl:AsymmetricProperty ,
                                                     owl:IrreflexiveProperty ;
+                                           :EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A relation that establishes for the whole a univocal tessellation in spatio temporal parts." ;
                                            skos:prefLabel "hasSpatioTemporalDirectPart"@en .
 
 
@@ -69,6 +66,7 @@ email: emanuele.ghedini@unibo.it"""@en ,
                                                     owl:AsymmetricProperty ,
                                                     owl:IrreflexiveProperty ;
                                            rdfs:domain :EMMO_36c79456_e29c_400d_8bd3_0eedddb82652 ;
+                                           :EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A relation that establishes for the whole a univocal tessellation in spatial parts." ;
                                            skos:prefLabel "hasSpatialDirectPart"@en .
 
 
