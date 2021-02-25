@@ -27,6 +27,7 @@
 
         <uri name="http://emmo.info/emmo/1.0.0-beta/domain/commonmaterials"    uri="commonmaterials.ttl"/>
         <uri name="http://emmo.info/emmo/1.0.0-beta/domain/commonperceptual"   uri="commonperceptual.ttl"/>
+        <uri name="http://emmo.info/emmo/1.0.0-beta/domain/chemicalkinetics"   uri="chemicalkinetics.ttl"/>
 
     </group>
 </catalog>
