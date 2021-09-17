@@ -469,7 +469,7 @@ A/m2 -&gt; T0 L0 M-2 I+1 Θ0 N0 J0</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/metrology#EMMO_67fc0a36_8dcb_4ffa_9a43_31074efa3296"/>
-                <owl:allValuesFrom rdf:resource="http://emmo.info/emmo/middle/metrology#EMMO_db716151_6b73_45ff_910c_d182fdcbb4f5"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/metrology#EMMO_db716151_6b73_45ff_910c_d182fdcbb4f5"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">&quot;Quantity in a conventionally chosen subset of a given system of quantities, where no quantity in the subset can be expressed in terms of the other quantities within that subset&quot;
