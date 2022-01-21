@@ -172,7 +172,10 @@ skos:prefLabel rdf:type owl:AnnotationProperty ;
 ###  http://emmo.info/emmo#EMMO_00735325_545e_4c1c_a0bd_58c6c57ed1b8
 :EMMO_00735325_545e_4c1c_a0bd_58c6c57ed1b8 rdf:type owl:ObjectProperty ;
                                            rdfs:subPropertyOf :EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
-                                           skos:prefLabel "hasTPrev"@en .
+                                           rdf:type owl:AsymmetricProperty ,
+                                                    owl:IrreflexiveProperty ;
+                                           skos:altLabel "hasTPrev"@en ;
+                                           skos:prefLabel "hasTemporalPrev"@en .
 
 
 ###  http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f
@@ -199,7 +202,7 @@ skos:prefLabel rdf:type owl:AnnotationProperty ;
 ###  http://emmo.info/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d
 :EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d rdf:type owl:ObjectProperty ;
                                            rdfs:subPropertyOf :EMMO_555d0261_da5e_4301_b7f9_46f604a32e91 ;
-                                           rdf:type owl:AsymmetricProperty ,
+                                           rdf:type owl:SymmetricProperty ,
                                                     owl:IrreflexiveProperty ;
                                            skos:altLabel "isTemporalNextOf"@en ;
                                            skos:prefLabel "isTimeContactWith"@en .
@@ -244,7 +247,10 @@ Items being connected means that there is a topological contact or \"interaction
 ###  http://emmo.info/emmo#EMMO_6ac3a7f2_c04f_4ee6_b9eb_7e6d5f37032d
 :EMMO_6ac3a7f2_c04f_4ee6_b9eb_7e6d5f37032d rdf:type owl:ObjectProperty ;
                                            rdfs:subPropertyOf :EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
-                                           skos:prefLabel "hasTNext"@en .
+                                           rdf:type owl:AsymmetricProperty ,
+                                                    owl:IrreflexiveProperty ;
+                                           skos:altLabel "hasTNext"@en ;
+                                           skos:prefLabel "hasTemporalNext"@en .
 
 
 ###  http://emmo.info/emmo#EMMO_6b7276a4_4b9d_440a_b577_0277539c0fc4
