@@ -40,6 +40,14 @@ email: emanuele.ghedini@unibo.it"""@en ,
 #    Classes
 #################################################################
 
+###  http://emmo.info/emmo#EMMO_00766683_7c8c_4a00_bae7_e305fbf010de
+:EMMO_00766683_7c8c_4a00_bae7_e305fbf010de rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_ecb0395f_ee1e_4e9a_bf5c_d8e56eee2d18 ;
+                                           :EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The separation of a molecular entity into two or more molecular entities (or any similar separation within a polyatomic molecular entity)."@en ;
+                                           :EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://goldbook.iupac.org/terms/view/D01801" ;
+                                           skos:prefLabel "DissociationReaction"@en .
+
+
 ###  http://emmo.info/emmo#EMMO_04b3300c_98bd_42dc_a3b5_e6c29d69f1ac
 :EMMO_04b3300c_98bd_42dc_a3b5_e6c29d69f1ac rdfs:subClassOf :EMMO_a293f923_954c_4af5_9f97_9600ebd362cb .
 
@@ -83,6 +91,14 @@ email: emanuele.ghedini@unibo.it"""@en ,
                                            rdfs:comment """Molecular entity is used as a general term for singular entities, irrespective of their nature, while chemical species stands for sets or ensembles of molecular entities.
 
 Note that the name of a compound may refer to the respective molecular entity or to the chemical species,""" .
+
+
+###  http://emmo.info/emmo#EMMO_2184690e_f71d_4d57_a14f_2ee262f5e23e
+:EMMO_2184690e_f71d_4d57_a14f_2ee262f5e23e rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_00766683_7c8c_4a00_bae7_e305fbf010de ;
+                                           :EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The decomposition of an ion into another ion of lower mass and one or more neutral species."@en ;
+                                           :EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://goldbook.iupac.org/terms/view/I03177"@en ;
+                                           skos:prefLabel "IonicDissociationReaction"@en .
 
 
 ###  http://emmo.info/emmo#EMMO_26586828_3b8c_4d8b_9c6c_0bc2502f26ae
@@ -152,6 +168,12 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
                                            skos:prefLabel "ChemicalElement"@en .
 
 
+###  http://emmo.info/emmo#EMMO_5d90f99f_6fb5_48fe_bbb0_93020b6632da
+:EMMO_5d90f99f_6fb5_48fe_bbb0_93020b6632da rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_e03796d7_8158_4e3e_854a_6091f6d13296 ;
+                                           skos:prefLabel "ReductionReaction"@en .
+
+
 ###  http://emmo.info/emmo#EMMO_643d99dd_fae6_4121_a76f_47f486a4480b
 :EMMO_643d99dd_fae6_4121_a76f_47f486a4480b rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_abf7efbe_6b04_41b8_8326_4dd0f6be753e ;
@@ -168,9 +190,27 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
                                            skos:prefLabel "EmpiricalFormula"@en .
 
 
+###  http://emmo.info/emmo#EMMO_6c7001f3_3606_4afc_abde_821e21499538
+:EMMO_6c7001f3_3606_4afc_abde_821e21499538 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_ecb0395f_ee1e_4e9a_bf5c_d8e56eee2d18 ;
+                                           skos:prefLabel "SideReaction"@en .
+
+
 ###  http://emmo.info/emmo#EMMO_704630b8_fee3_49b9_baca_40e2dd276370
 :EMMO_704630b8_fee3_49b9_baca_40e2dd276370 rdf:type owl:Class ;
                                            skos:prefLabel "OrganicCompound"@en .
+
+
+###  http://emmo.info/emmo#EMMO_74f63978_e046_498e_9abc_d4fb814f0284
+:EMMO_74f63978_e046_498e_9abc_d4fb814f0284 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_ecb0395f_ee1e_4e9a_bf5c_d8e56eee2d18 ;
+                                           skos:prefLabel "ElementaryReactionStep"@en .
+
+
+###  http://emmo.info/emmo#EMMO_799f4fd6_a2c4_4008_a4cd_c01ca3b0d0d8
+:EMMO_799f4fd6_a2c4_4008_a4cd_c01ca3b0d0d8 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_e03796d7_8158_4e3e_854a_6091f6d13296 ;
+                                           skos:prefLabel "OxidationReaction"@en .
 
 
 ###  http://emmo.info/emmo#EMMO_7c055d65_2929_40e1_af4f_4bf10995ad50
@@ -195,6 +235,12 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
 :EMMO_8a41ed1b_64f9_4be7_9b60_01fcece45075 rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ;
                                            skos:prefLabel "ChemicalMaterial"@en .
+
+
+###  http://emmo.info/emmo#EMMO_8be99fae_3aae_40eb_b6a9_66b65b3981bf
+:EMMO_8be99fae_3aae_40eb_b6a9_66b65b3981bf rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_6c7001f3_3606_4afc_abde_821e21499538 ;
+                                           skos:prefLabel "ParasiticReaction"@en .
 
 
 ###  http://emmo.info/emmo#EMMO_90963312_d9a9_4474_8d10_835aef5b168e
@@ -222,6 +268,12 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
                                            :EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A symbolic construct that provides informations about the chemical proportions of the elements that constitute a chemical compound or a specific molecule." ;
                                            rdfs:comment "A chemical formula may also include other symbols such as parentheses, plus and minus signs, brackets" ;
                                            skos:prefLabel "ChemicalFormula"@en .
+
+
+###  http://emmo.info/emmo#EMMO_9f0c4b94_185d_4e11_a153_0ef919d24265
+:EMMO_9f0c4b94_185d_4e11_a153_0ef919d24265 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_ecb0395f_ee1e_4e9a_bf5c_d8e56eee2d18 ;
+                                           skos:prefLabel "InsertionReaction"@en .
 
 
 ###  http://emmo.info/emmo#EMMO_9fa966c7_5231_409e_841f_b4c5fd33732a
@@ -274,6 +326,12 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
                                                                  rdf:type owl:Class
                                                                ] ;
                                            skos:prefLabel "ChemicalSymbolicConstruct"@en .
+
+
+###  http://emmo.info/emmo#EMMO_bf78ae06_46b1_4d0f_bfe5_39d9ecd80d4a
+:EMMO_bf78ae06_46b1_4d0f_bfe5_39d9ecd80d4a rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_74f63978_e046_498e_9abc_d4fb814f0284 ;
+                                           skos:prefLabel "RateDeterminingStep"@en .
 
 
 ###  http://emmo.info/emmo#EMMO_bf836c2b_7800_474d_b674_f5d629fa0bb1
@@ -348,6 +406,12 @@ Sodium Chloride""" ;
                                            skos:prefLabel "ChemicalSubstance"@en .
 
 
+###  http://emmo.info/emmo#EMMO_e03796d7_8158_4e3e_854a_6091f6d13296
+:EMMO_e03796d7_8158_4e3e_854a_6091f6d13296 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_ecb0395f_ee1e_4e9a_bf5c_d8e56eee2d18 ;
+                                           skos:prefLabel "RedoxReaction"@en .
+
+
 ###  http://emmo.info/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b
 :EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_df96cbb6_b5ee_4222_8eab_b3675df24bea ;
@@ -359,8 +423,24 @@ Sodium Chloride""" ;
                                            skos:prefLabel "ChemicalCompound"@en .
 
 
+###  http://emmo.info/emmo#EMMO_e93216d9_2421_4edb_966a_310898892d8d
+:EMMO_e93216d9_2421_4edb_966a_310898892d8d rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_9f0c4b94_185d_4e11_a153_0ef919d24265 ;
+                                           :EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Reaction, generally reversible, that involves the penetration of a host material by guest species without causing a major structural modification of the host."@en ;
+                                           :EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://goldbook.iupac.org/terms/view/I03077"@en ;
+                                           skos:prefLabel "IntercalationReaction"@en .
+
+
 ###  http://emmo.info/emmo#EMMO_eb7de1a1_c30e_4f0d_94c6_fe70414d7e61
 :EMMO_eb7de1a1_c30e_4f0d_94c6_fe70414d7e61 rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo#EMMO_ecb0395f_ee1e_4e9a_bf5c_d8e56eee2d18
+:EMMO_ecb0395f_ee1e_4e9a_bf5c_d8e56eee2d18 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_135ab8ea_e028_439e_be64_3e0f9734ea2b ;
+                                           :EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A process that results in the interconversion of chemical species. Chemical reactions may be elementary reactions or stepwise reactions. (It should be noted that this definition includes experimentally observable interconversions of conformers.) Detectable chemical reactions normally involve sets of molecular entities as indicated by this definition, but it is often conceptually convenient to use the term also for changes involving single molecular entities (i.e. 'microscopic chemical events')."@en ;
+                                           :EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://goldbook.iupac.org/terms/view/C01033"@en ;
+                                           skos:prefLabel "ChemicalReaction"@en .
 
 
 ###  http://emmo.info/emmo#EMMO_ecc4efe9_77a2_47e3_8190_f9a883d54ac6
@@ -368,6 +448,14 @@ Sodium Chloride""" ;
                                            rdfs:subClassOf :EMMO_eb7de1a1_c30e_4f0d_94c6_fe70414d7e61 ;
                                            :EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A representation of objects belonging to the chemistry field." ;
                                            skos:prefLabel "ChemicalRepresentation"@en .
+
+
+###  http://emmo.info/emmo#EMMO_f2bed4e3_d4fe_4de0_9624_8e55a28eab2c
+:EMMO_f2bed4e3_d4fe_4de0_9624_8e55a28eab2c rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_ecb0395f_ee1e_4e9a_bf5c_d8e56eee2d18 ;
+                                           :EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A chemical reaction for which the expression for the rate of disappearance of a reactant (or rate of appearance of a product) involves rate constants of more than a single elementary reaction."@en ;
+                                           :EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://goldbook.iupac.org/terms/view/C01211"@en ;
+                                           skos:prefLabel "CompositeReaction"@en .
 
 
 #################################################################

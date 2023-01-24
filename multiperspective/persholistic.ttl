@@ -414,6 +414,23 @@ If A is a water-fluid so small that its every proper part is no more a continuum
                                            skos:prefLabel "Network"@en .
 
 
+###  http://emmo.info/emmo/multiperspective/persholistic#EMMO_038e37a3_1684_4980_b5e4_67ab34cd5bdb
+:EMMO_038e37a3_1684_4980_b5e4_67ab34cd5bdb rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_13191289_6c2b_4741_93e1_82d53bd0e703 ;
+                                           :EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A 'physical' that stands for a real world object that takes active part of a functional process."@en ;
+                                           skos:prefLabel "ActiveParticipant"@en .
+
+
+###  http://emmo.info/emmo/multiperspective/persholistic#EMMO_f7dbce66_2822_4855_9f42_1da71aa9e923
+:EMMO_f7dbce66_2822_4855_9f42_1da71aa9e923 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c ;
+                                           :EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The process that makes a product work as intended when in use."@en ;
+                                           :EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a """- The light-emitting process of a diode.
+- The car crash process for a crash box in a car.
+- The discharging process of a battery."""@en ;
+                                           skos:prefLabel "FunctionalProcess"@en .
+
+
 #################################################################
 #    Annotations
 #################################################################
